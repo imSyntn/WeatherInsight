@@ -135,7 +135,7 @@ async function fetchData(search_val) {
 
     document.getElementById("searchedCity").innerHTML = search_val;
     try {
-        let current_status = await fetch(`http://api.weatherapi.com/v1/current.json?key=${api_key_current}&q=${search_val}&aqi=yes`);
+        let current_status = await fetch(`https://api.weatherapi.com/v1/current.json?key=${api_key_current}&q=${search_val}&aqi=yes`);
         let res_one = await current_status.json();
         console.log(res_one);
         const options = {method: 'GET', headers: {accept: 'application/json'}};
