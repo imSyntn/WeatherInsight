@@ -132,7 +132,8 @@ search_icon.addEventListener("click", ()=> {
 });
 
 async function fetchData(search_val) {
-
+    let api_key_current = "19493db597fb4254b30144812231306";
+    let api_key_Future = "7ZvZ4ARNH8x3CxNZwW1MYTesVaQbO4Xk";
     document.getElementById("searchedCity").innerHTML = search_val;
     try {
         let current_status = await fetch(`https://api.weatherapi.com/v1/current.json?key=${api_key_current}&q=${search_val}&aqi=yes`);
