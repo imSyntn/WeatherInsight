@@ -8,9 +8,6 @@ This is a weather app that displays the current weather status along with upcomi
 - 5-day forecast: View the weather forecast for the next 5 days, including temperature and weather description for each day.
 - Responsive design: The app is optimized to work on different devices and screen sizes, ensuring a seamless user experience.
 
-## Demo
-
-Currently not available but will be available soon!
 
 ## Screenshots
 
